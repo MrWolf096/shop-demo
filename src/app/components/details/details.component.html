@@ -1,0 +1,31 @@
+<div class="container">
+    <h3 style="color: rgb(105, 154, 197);">Product Details</h3>
+
+    <br>
+
+    <a type="button" class="btn btn-outline-primary" routerLink="/products">Back</a>
+
+    <br>
+    <br>
+
+    <table style="color:rgb(247, 243, 243); width: fit-content;" class="center ; table table-bordered border-primary">
+        <thead style="background-color:rgba(139, 134, 134, 0.329) ;">
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>Category</td>
+            </tr>
+        </thead>
+        <tbody style="background-color:rgba(70, 104, 104, 0.43) ;">
+            <tr>
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.description}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.category}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
